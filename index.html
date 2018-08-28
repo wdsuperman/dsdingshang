@@ -1,0 +1,441 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>盛世鼎商</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="js/swiper.min.js"></script>
+  <script src="js/swiper.animate.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <audio id="Jaudio" class="media-audio" loop="loop">
+    <source src="./music/Dirk Reichardt - Like A River.mp3" type="audio/mp3">
+  </audio>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    .swiper-container {
+      width: 6.4rem;
+      height: 100%;
+      margin: 0 auto;
+      background: #fff;
+    }
+
+    .swiper-slide {
+      overflow-x: hidden;
+      margin: 0 auto;
+      background-size: 100% 100%;
+    }
+
+    .swiper-slide>.wrap {
+      width: 100%;
+      height: 11.3rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .swiper-slide>.section2 {
+      position: relative;
+      height: 31.8rem;
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+    }
+
+    .swiper-pagination-bullet {
+      width: 6px;
+      height: 6px;
+      background: #fff;
+      opacity: .4;
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+    }
+
+    @keyframes music {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.music {
+  width: 0.6rem;
+  top: 0.20rem;
+  left: 0.20rem;
+  z-index: 999;
+  animation: music 2s linear infinite;
+  position: fixed;
+}
+  </style>
+</head>
+
+<body>
+  <img onclick="bf()" class="music" src="./images/music.png" alt="">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!-------------slide1----------------->
+      <section class="swiper-slide">
+        <div class="wrap">
+
+          <img class="ani bgdownleft" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.8s" swiper-animate-duration="1.2s" src="./images/FhVPsJ5oGOWwJXKv-cCRJBBflHoo.png"
+            alt="">
+          <img class="ani bgdownright" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.8s" swiper-animate-duration="1.2s"
+            src="./images/FpBDPZVCaT2Z8t0o-e-gqe_n5roV.png" alt="">
+          <img class="firstbg ani" swiper-animate-effect="zoomIn" src="./images/FqsXna87vGSxBfJsa5oZUiPrmwFa.png" alt="">
+          <img class="ani firstjiao" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.5s" src="./images/FmugSyBvr2Ervcy_LELrFnkGwryM.png"
+            alt="">
+          <img class="ani fistjiaoDown" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.5s" src="./images/Fo2oLUUirfGrr1T8e4OBvD_svJHR.png"
+            alt="">
+          <img class="ani fitstsanjiao1" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.3s" src="./images/FjPp4U3uiaBZQ1s7V9esHAqVX1Uh.png"
+            alt="">
+          <img class="ani fitstsanjiao2" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.3s" src="./images/FmymK3jP9ravhSxvWHFBxjSGdmMW.png"
+            alt="">
+          <div class="logo ani" swiper-animate-effect="fadeIn" swiper-animate-delay="1s">
+          </div>
+          <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="1.2s">
+        </div>
+        </h1>
+      </section>
+      <!---------------slide2-------------->
+      <section class="swiper-slide">
+        <div class="section2">
+          <p class="double"></p>
+          <p class="min ani" swiper-animate-effect="zoomIn"></p>
+          <p class="border ani" swiper-animate-effect="zoomIn"></p>
+          <img class="ani bgdownleft" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.8s" swiper-animate-duration="1.2s" src="./images/FhVPsJ5oGOWwJXKv-cCRJBBflHoo.png"
+            alt="">
+          <img class="ani bgdownright" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.8s" swiper-animate-duration="1.2s"
+            src="./images/FpBDPZVCaT2Z8t0o-e-gqe_n5roV.png" alt="">
+          <img class="ani firstjiao" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.5s" src="./images/FmugSyBvr2Ervcy_LELrFnkGwryM.png"
+            alt="">
+          <img class="ani fistjiaoDown" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.5s" src="./images/Fo2oLUUirfGrr1T8e4OBvD_svJHR.png"
+            alt="">
+          <img class="ani fitstsanjiao1" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.3s" src="./images/FjPp4U3uiaBZQ1s7V9esHAqVX1Uh.png"
+            alt="">
+          <img class="ani fitstsanjiao2" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.3s" src="./images/FmymK3jP9ravhSxvWHFBxjSGdmMW.png"
+            alt="">
+          <h2 class="ani" swiper-animate-effect="zoomIn" swiper-animate-delay="1s">公司简介</h2>
+          <div class="lingxing">
+            <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+              alt="">
+            <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.3s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+              alt="">
+            <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.6s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+              alt="">
+            <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.9s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+              alt="">
+          </div>
+          <div class="lingxing lingxing1">
+            <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.9s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+              alt="">
+            <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.6s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+              alt="">
+            <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.3s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+              alt="">
+            <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+              alt="">
+          </div>
+          <div class="text">
+            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="1.2s">
+              北京盛世鼎商餐饮管理有限公司，设立于北京，是一家致力于中小型餐饮创业的品牌连锁服务商。旗下业务设有餐饮项目研发、餐饮创业培 训、餐饮门店经营、品牌项目合作四大核心板块 。以“帮助创业者实现创业梦想”为目标，成功 塑造了“小本创业”的餐饮形象。
+            </p>
+            <img class="dfPic ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-delay="1.4s" src="./images/doublePic_03.png"
+              alt="">
+            <p class="tp ani " swiper-animate-effect="fadeIn" swiper-animate-delay="1.6s"> 公司下设信息中心、研发中心、营销中心、 招商中心、物流中心、客服中心等多个职能部门 。先后在北京、秦皇岛、南京、黑龙江等区域开 发出叫个鸭子、鸡出没、汉堡侠、妮大妈剁鸭等 多个项目，成功打造出以特色餐饮为主导的创业 项目和餐饮全产业链运营体系。
+            </p>
+            <img class="d1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="1.8s" src="./images/doublePic_10.png" alt="">
+            <img class="d2 ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1.8s" src="./images/doublePic_07.png" alt="">
+            <img class="d3 ani" swiper-animate-effect="fadeIn" swiper-animate-delay="2s" src="./images/doublePic_14.png" alt="">
+            <p class="thp ani" swiper-animate-effect="rotateIn" swiper-animate-delay="2.2s"> 公司自成立以来，遵循“全员关注食品安全 ，坚持绿色养生，确保食客满意”的质量方针， 始终不忘“弘扬中华饮食文化”使命，坚持以中 华美食为根基，精心钻研八大菜系和各地方名小 吃，将传统美食赋予新时尚概念，融入“特色、 养生、健康、营养”的就餐需求，广受合作伙伴
+              和消费者的高度认可。此外，不忘积极引进外国 特色美食，取其精华，将外来美食融入本土文化 ，打造出更适合国人食用的洋快餐品牌。
+            </p>
+            <img class="d4 ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="2.4s" src="./images/doublePic_17.png" alt="">
+            <img class="d5 ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.4s" src="./images/doublePic_19.png" alt="">
+            <img class="d6 ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="2.4s" src="./images/doublePic_22.png" alt="">
+            <img class="d7 ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.4s" src="./images/doublePic_24.png" alt="">
+            <p class="fp ani" swiper-animate-effect="fadeIn" swiper-animate-delay="2.6s"> 作为中国餐饮项目合作行业的后起之秀，鼎 商餐饮厚积薄发，开拓进取，深谙餐饮市场发展 趋势，在不断完善产业化发展、标准化管理的同 时，依靠自身的管理运作体系，为顾客提供安全 、健康、营养的绿色食品。在未来的发展中，鼎 商餐饮将一如既往的努力下去，基于市场，不断
+              创新，坚持为客户提供完美品质的餐饮项目，迎 接中国餐饮新变革！
+            </p>
+            <div class="textInText">
+              <div class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-delay="2.8s">
+                <img src="./images/mindown_29.png" alt="">
+                <p>餐饮项目研发、餐饮创业 培训、餐饮门店经营、品 牌项目合作
+                </p>
+              </div>
+              <div class="ani" swiper-animate-effect="bounceInRight" swiper-animate-delay="3s">
+                <p>鸡出没 汉堡侠 叫个鸭子
+                  <br> 妮大妈剁鸭
+                </p>
+                <img src="./images/mindown_33.png" alt="">
+              </div>
+              <div class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-delay="3.2s">
+                <img src="./images/mindown_37.png" alt="">
+                <p>为餐饮创业者提供系统化
+                  <br> 开店解决方案的服务提供商
+                </p>
+              </div>
+              <div class="ani" swiper-animate-effect="bounceInRight" swiper-animate-delay="3.4s">
+                <p>截止到2018年8月，盛世鼎商 餐饮合作店面接近850家， 遍布全国100个大中小城市
+                </p>
+                <img src="./images/mindown_41.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------------slide3-------------->
+
+      <section class="swiper-slide">
+        <div class="wrap">
+          <div class="bg">
+              <img class="ani bgdownleft" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.8s" swiper-animate-duration="1.2s" src="./images/FhVPsJ5oGOWwJXKv-cCRJBBflHoo.png"
+              alt="">
+            <img class="ani bgdownright" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.8s" swiper-animate-duration="1.2s"
+              src="./images/FpBDPZVCaT2Z8t0o-e-gqe_n5roV.png" alt="">
+            <img class="ani firstjiao" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.5s" src="./images/FmugSyBvr2Ervcy_LELrFnkGwryM.png"
+              alt="">
+            <img class="ani fistjiaoDown" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.5s" src="./images/Fo2oLUUirfGrr1T8e4OBvD_svJHR.png"
+              alt="">
+            <img class="ani fitstsanjiao1" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.3s" src="./images/FjPp4U3uiaBZQ1s7V9esHAqVX1Uh.png"
+              alt="">
+            <img class="ani fitstsanjiao2" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.3s" src="./images/FmymK3jP9ravhSxvWHFBxjSGdmMW.png"
+              alt="">
+            <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="1.2s">
+            </h1>
+            <div class="thrborder ani"
+            swiper-animate-effect="zoomIn">
+
+            </div>
+            <div class="thrborder2 ani"
+            swiper-animate-effect="zoomIn">
+
+            </div>
+            <h2 class="ani" swiper-animate-effect="zoomIn" swiper-animate-delay="1s">企业文化</h2>
+            <div class="lingxing">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.3s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.6s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.9s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+            </div>
+            <div class="lingxing lingxing1">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.9s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.6s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.3s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+            </div>
+            <div class="wenhua">
+              <img class="ani"
+              swiper-animate-effect="fadeInDown" swiper-animate-delay="1.2s"
+              src="./images/wenhua_03.png" alt="">
+              <img class="ani"
+              swiper-animate-effect="fadeInDown" swiper-animate-delay="1.4s"
+              src="./images/wenhua_07.png" alt="">
+              <img class="ani"
+              swiper-animate-effect="fadeInDown" swiper-animate-delay="1.6s"
+              src="./images/wenhua_10.png" alt="">
+              <img class="ani"
+              swiper-animate-effect="fadeInDown" swiper-animate-delay="1.8s"
+              src="./images/wenhua_14.png" alt="">
+              <img class="ani"
+              swiper-animate-effect="fadeInDown" swiper-animate-delay="2.0s"
+              src="./images/wenhua_17.png" alt="">
+              <img class="ani"
+              swiper-animate-effect="fadeInDown" swiper-animate-delay="2.2s"
+              src="./images/wenhua_20.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="swiper-slide">
+        <div class="wrap">
+          <div class="bg">
+            <img class="ani bgdownleft" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.8s" swiper-animate-duration="1.2s" src="./images/FhVPsJ5oGOWwJXKv-cCRJBBflHoo.png"
+              alt="">
+            <img class="ani bgdownright" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.8s" swiper-animate-duration="1.2s"
+              src="./images/FpBDPZVCaT2Z8t0o-e-gqe_n5roV.png" alt="">
+            <img class="ani firstjiao" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.5s" src="./images/FmugSyBvr2Ervcy_LELrFnkGwryM.png"
+              alt="">
+            <img class="ani fistjiaoDown" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.5s" src="./images/Fo2oLUUirfGrr1T8e4OBvD_svJHR.png"
+              alt="">
+            <img class="ani fitstsanjiao1" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.3s" src="./images/FjPp4U3uiaBZQ1s7V9esHAqVX1Uh.png"
+              alt="">
+            <img class="ani fitstsanjiao2" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.3s" src="./images/FmymK3jP9ravhSxvWHFBxjSGdmMW.png"
+              alt="">
+            <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="1.2s">
+            </h1>
+            <div class="thrborder ani"
+            swiper-animate-effect="zoomIn">
+
+            </div>
+            <div class="thrborder2 ani"
+            swiper-animate-effect="zoomIn">
+
+            </div>
+            <h2 class="ani" swiper-animate-effect="zoomIn" swiper-animate-delay="1s">请您留言</h2>
+            <div class="lingxing">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.3s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.6s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.9s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+            </div>
+            <div class="lingxing lingxing1">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.9s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.6s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0.3s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+              <img class="ani infinite" swiper-animate-effect="zoomIn" swiper-animate-delay="0s" swiper-animate-duration="1.4s" src="./images/lingxing.png"
+                alt="">
+            </div>
+            <div class="lastlogo ani"
+            swiper-animate-effect="pulse" swiper-animate-delay="0.5s"
+            ></div>
+            <form>
+              <input class="ani" 
+              swiper-animate-effect="flipInX" swiper-animate-delay="1s"
+              type="text" placeholder="姓名">
+              <input class="ani" 
+              swiper-animate-effect="flipInX" swiper-animate-delay="1.2s"
+              type="text" placeholder="电话">
+              <textarea class="ani" 
+              swiper-animate-effect="flipInX" swiper-animate-delay="1.4s"
+              placeholder="留言"></textarea>
+              <input class="ani" 
+              swiper-animate-effect="flipInX" swiper-animate-delay="1.6s"
+              type="submit" placeholder="提 交" ">
+              </form>
+          </div>
+        </div>
+      </section>
+
+
+
+  </div>
+  </div>
+
+
+  <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if (clientWidth >= 640) {
+            docEl.style.fontSize = '100px';
+          } else {
+            docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+          }
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+
+    var mySwiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      loop: true,
+      observer: true,
+      mousewheel: false,  
+      onInit: function (swiper) {
+        swiperAnimateCache(swiper);
+        swiperAnimate(swiper);
+      },
+      onSlideChangeEnd: function (swiper) {
+        swiperAnimate(swiper);
+      },
+      onSlideChangeStart: function (swiper) {
+      $('.swiper-slide').scrollTop(0);
+    },
+    })
+
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      autoHeight: true,
+    });
+    var startScroll, touchStart, touchCurrent;
+    swiper.slides.on('touchstart', function (e) {
+      startScroll = this.scrollTop;
+      touchStart = e.targetTouches[0].pageY;
+    }, true);
+    swiper.slides.on('touchmove', function (e) {
+      touchCurrent = e.targetTouches[0].pageY;
+      var touchesDiff = touchCurrent - touchStart;
+      var slide = this;
+      var onlyScrolling =
+        (slide.scrollHeight > slide.offsetHeight) && //allow only when slide is scrollable
+        (
+          (touchesDiff < 0 && startScroll === 0) || //start from top edge to scroll bottom
+          (touchesDiff > 0 && startScroll === (slide.scrollHeight - slide.offsetHeight)) || //start from bottom edge to scroll top
+          (startScroll > 0 && startScroll < (slide.scrollHeight - slide.offsetHeight)) //start from the middle
+        );
+      if (onlyScrolling) {
+        e.stopPropagation();
+      }
+    }, true);
+
+
+  
+  function audioAutoPlay(id) {
+    var audio = document.getElementById(id);
+    audio.play();
+    document.addEventListener("WeixinJSBridgeReady", function () {
+      audio.play();
+    }, false);
+    document.addEventListener('YixinJSBridgeReady', function () {
+      audio.play();
+    }, false);
+  }
+  audioAutoPlay('Jaudio');
+
+
+  function bf() {
+    var audio = document.getElementById('Jaudio');
+    if (audio !== null) {
+      if (audio.paused) {
+        audio.play(); //audio.play();// 这个就是播放
+        document.querySelector('.music').style.animation = 'music 2s linear infinite'
+      } else {
+        audio.pause(); // 这个就是暂停
+        document.querySelector('.music').style.animation = 'none'
+      }
+    }
+  }
+  </script>
+</body>
+
+</html>

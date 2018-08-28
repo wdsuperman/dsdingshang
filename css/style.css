@@ -1,0 +1,332 @@
+i{
+  font-style: normal;
+    font-family: "微软雅黑"
+}
+p{
+  font-family: "微软雅黑"
+}
+
+.firstbg{
+  width: 5.5rem;
+  height: 100%;
+  left: 50%;
+  margin-left: calc(-5.5rem / 2);
+  position: absolute;
+}
+.bgdownleft{
+  top: 4.95rem;
+  position: absolute;
+  left: -0.5rem;
+}
+.bgdownright{
+  top: 1.5rem;
+  right: -0.5rem;
+  position: absolute;
+}
+.firstjiao{
+  width: 8rem;
+  top: -1rem;
+  left: -0.5rem;
+  position: absolute;
+}
+.fistjiaoDown{
+  width: 8rem;
+  bottom: -1rem;
+  left: -0.5rem;
+  position: absolute;
+}
+.fitstsanjiao1{
+  position: absolute;
+  width: 8rem;
+  top: -1rem;
+}
+.fitstsanjiao2{
+  bottom: -1.2rem;
+  left: -0.5rem;
+  position: absolute;
+  width: 8rem;
+}
+.logo{
+  width: 3.87rem;
+  padding-top: 3.15rem;
+  background-image: url('../images/logo.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 999;
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-3.87rem / 2);
+  top:50%;
+  margin-top: calc(-3.15rem / 2)
+}
+.double{
+  background-color: #323333;
+  height: 31.80rem;
+}
+.min{
+  width: 5.5rem;
+  margin: 0 auto;
+  border: 5px solid #fff;
+  border-radius: 3px;
+  position: absolute;
+  height: 30.68rem;
+  z-index: 10;
+  top: 0.4rem;
+  left: 50%;
+  margin-left: calc(-5.5rem / 2);
+  background-color: #323333;
+  opacity: .8;
+}
+.border{
+  width: 5.5rem;
+  margin: 0 auto;
+  border: 5px solid #fff;
+  border-radius: 3px;
+  position: absolute;
+  height: 30.68rem;
+  z-index: 10;
+  top: 0.4rem;
+  left: 50%;
+  margin-left: calc(-5.5rem / 2);
+}
+h2{
+  display: block;
+  font-size: 0.375rem;
+  top: 0.74rem;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 5.22rem;
+  border-bottom: 2px solid #fff;
+  z-index: 11;
+  left: 50%;
+  margin-left: calc(-5.12rem / 2);
+  padding-bottom: 0.18rem;
+}
+.lingxing{
+  display: flex;
+  position: absolute;
+  z-index: 111;
+  top: 0.8rem;
+  left: 0.64rem;
+}
+.lingxing>img{
+  width: 0.42rem;
+  height: 0.42rem;
+}
+.lingxing1{
+  left: 4.12rem;
+}
+.text{
+  width: 5.22rem;
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-5.02rem / 2);
+  z-index: 111;
+  top: 1.66rem;
+  font-size: 0.25rem;
+  color: #fff;
+  line-height: 0.38rem;
+  text-indent: 0.51rem;
+}
+.dfPic{
+  width: 5.22rem;
+  position: absolute;
+  top: 2.34rem;
+}
+.tp{
+  top: 5.34rem;
+  position: absolute;
+}
+.d1{
+  position: absolute;
+  top: 7.66rem;
+  left: 0;
+  width: 3.22rem;
+  height: 2.21rem;
+}
+.d2{
+  position: absolute;
+  top: 7.66rem;
+  right: 0;
+  width: 1.87rem;
+  height: 2.22rem;
+}
+.d3{
+  position: absolute;
+  top: 9.98rem;
+  width: 5.22rem;
+  height: 2.33rem;
+}
+.thp{
+  top: 12.48rem;
+  position: absolute;
+}
+.d4{
+  position: absolute;
+  left: 0;
+  top: 16.4rem;
+  width: 2.74rem;
+  height: 1.78rem;
+}
+.d5{
+  position: absolute;
+  right: 0;
+  top: 16.4rem;
+  width: 2.35rem;
+  height: 1.78rem;
+}
+.d6{
+  position: absolute;
+  left: 0;
+  top: 18.3rem;
+  width: 2.35rem;
+  height: 1.78rem;
+}
+.d7{
+  position: absolute;
+  right: 0;
+  top: 18.3rem;
+  width: 2.74rem;
+  height: 1.78rem;
+}
+.fp{
+  top: 20.28rem;
+  position: absolute;
+}
+.textInText{
+  width: 4.7rem;
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-4.7rem / 2);
+  top: 23.5rem;
+}
+.textInText>div{
+  width: 4.7rem;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+}
+.textInText>div>img{
+  width: 1.36rem;
+  height: 1.15rem;
+}
+.textInText>div>p{
+  width: 3.2rem;
+  text-indent: 0;
+}
+.textInText>div:nth-child(2){
+  top: 1.38rem;
+}
+.textInText>div:nth-child(3){
+  top: 2.78rem;
+}
+.textInText>div:nth-child(4){
+  top: 4.16rem;
+}
+.bg{
+  width: 100%;
+  height: 12rem;
+  background-color: #323333;
+}
+
+.thrborder{
+  width: 5.5rem;
+  margin: 0 auto;
+  border: 5px solid #fff;
+  border-radius: 3px;
+  position: absolute;
+  height: 10.23rem;
+  z-index: 10;
+  top: 0.4rem;
+  left: 50%;
+  margin-left: calc(-5.6rem / 2);
+  background-color: #323333;
+  opacity: .8;
+}
+.thrborder2{
+  width: 5.5rem;
+  margin: 0 auto;
+  border: 5px solid #fff;
+  border-radius: 3px;
+  position: absolute;
+  height: 10.23rem;
+  z-index: 10;
+  top: 0.4rem;
+  left: 50%;
+  margin-left: calc(-5.6rem / 2);
+}
+.wenhua{
+  height: 9.12rem;
+  flex-direction:column;
+  position: absolute;
+  width: 5.06rem; 
+  left: 50%;
+  margin-left: calc(-4.9rem / 2);
+  z-index: 111;
+  top: 1.56rem;
+  display: flex;
+}
+.wenhua>img{
+  width: 5.06rem;
+  height: 1.38rem;
+  margin-top: 0.1rem;
+}
+.lastlogo{
+  width: 4.17rem;
+  height: 1.26rem;
+  background-image: url('../images/lastlogo.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 2.3rem;
+  left: 50%;
+  margin-left: calc(-4.17rem / 2);
+  z-index: 111;
+}
+form>input:nth-child(1),form>input:nth-child(2){
+  line-height: 0.6rem;
+  position: absolute;
+  z-index: 112;
+  outline: 0;
+  border-radius: 0.1rem;
+  width: 5rem;
+  left: 50%;
+  margin-left: calc(-5.1rem / 2);
+  text-indent: 0.14rem;
+  font-size: 0.25rem;
+  top: 4.12rem;
+}
+form>input:nth-child(2){
+top: 4.98rem;
+}
+textarea{
+  position: absolute;
+  text-indent: 0.14rem;
+  font-size: 0.25rem;
+  width: 5rem;
+  left: 50%;
+  margin-left: calc(-5.1rem / 2);
+  height: 2.3rem;
+  border-radius: 0.1rem;
+  top: 5.83rem;
+  z-index: 115;
+  resize:none;
+  padding-top: 0.12rem;
+}
+form>input:nth-child(4){
+  position: absolute;
+  top: 8.6rem;
+  width: 5.02rem;
+  border-radius: 0.1rem;
+  background-color: #a27545;
+  color: #fff;
+  font-size: 0.3333rem;
+  outline: 0;
+  line-height: 0.6rem;
+  text-align: center;
+  z-index: 122;
+  left: 50%;
+  margin-left: calc(-5.02rem / 2);
+  }
